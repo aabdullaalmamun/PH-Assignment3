@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment3</title>
-</head>
-<link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
-<body>
-   <header class="w-11/12 sm:max-w-6xl mx-auto mt-7 bg-gradient-to-b" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));">
+
+<!-- manrope -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+<style>
+  
+    .manrope{
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+    }
+    </style>
+</head>
+
+
+
+<body class="manrope">
+   <header class="w-11/12 sm:max-w-6xl mx-auto mt-7 mb-20 bg-gradient-to-b" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));">
     <!-- nav section -->
     <nav class="flex justify-between items-center">
         <div>
@@ -48,17 +64,61 @@
                     <img src="./assets/Frame 3.png" alt=""></button>
                 </div>
             <div>
-                <button>
-                    <img class="size-11/12" src="./assets/Frame 5.png" alt=""></button>
+                <!-- <button>
+                    <img class="size-11/12" src="./assets/Frame 5.png" alt=""></button> -->
+                    <button class="flex gap-3 items-center mx-auto bg-[#ABEF5F] rounded-full px-4 py-2 font-extrabold">Book Consult<img src="./assets/arrow01.png" alt=""></button>
                 </div>
         </div>
     </nav>
-
+    <!-- banner section -->
+     <section>
+         <div class="mt-20">
+            <img class="mx-auto" src="./assets/banner.png" alt="">
+        </div>
+        <h2 class="text-center text-4xl sm:text-6xl mt-6 font-extrabold">A barn house of this design has a striking appearance</h2>
+        <p class="text-center text-sm mt-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.</p>
+        <button class="flex gap-3 items-center mx-auto mt-8 bg-[#d3f8ac] rounded-full px-6 py-3 font-bold w-full justify-center sm:w-52">View Details<img src="./assets/arrow-up-right-01.png" alt=""></button>
+     </section>
+     <img class="-ml-11 hidden sm:inline" src="./assets/Vector.png" alt="">
    </header>
 
 
-   <main>
+<!-- main section -->
+   <main class="w-11/12 sm:max-w-6xl mx-auto mt-7 ">
+   <!-- aboutus part -->
 
+   <section class="sm:flex">
+    <div class="mr-8">
+        <div class="flex gap-2 justify-center sm:justify-start"><img src="./assets/Group 1.png" alt=""><P class="font-extrabold">About Us</P></div>  
+ <div>
+    <h3 class="text-4xl mt-4 mb-6 font-extrabold text-center sm:text-start">We design thoughtful,<br>liveable spaces</h3>
+ <p class="mb-6 text-center sm:text-start max-w-lg">The barn house captivates with its blend of rustic charm and
+    modern sophistication, featuring weathered wood, sleek metal accents.</p>
+ </div>
+ <div class="flex mb-7 mt-6 p-6">
+    <img class="mr-7 sm:size-auto size-12" src="./assets/commercial.png" alt="">
+    <div>
+        <h4 class="text-xl font-bold">Commercial</h4>
+        <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+    </div>
+ </div>
+
+<!-- div-2 as like div-1 -->
+<div class="flex mb-16 p-6">
+    <img class="mr-7 sm:size-auto size-12" src="./assets/residential.png" alt="">
+    <div>
+        <h4 class="text-xl font-bold">Residential</h4>
+        <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+    </div>
+ </div>
+
+     </div>
+
+     <div>
+        <img src="./assets/Rectangle.png" alt="">
+     </div>
+ 
+   </section>
    </main>
 
 
